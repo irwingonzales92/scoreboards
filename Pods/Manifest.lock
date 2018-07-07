@@ -1,0 +1,59 @@
+PODS:
+  - CircleMenu (3.1.0)
+  - Firebase/Core (5.4.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.1)
+  - Firebase/CoreOnly (5.4.0):
+    - FirebaseCore (= 5.0.5)
+  - FirebaseAnalytics (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.5):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (3.1.1):
+    - FirebaseCore (~> 5.0)
+  - FoldingCell (3.1.1)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - RAMPaperSwitch (2.1.0)
+
+DEPENDENCIES:
+  - CircleMenu
+  - Firebase/Core
+  - FoldingCell
+  - RAMPaperSwitch
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CircleMenu
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FoldingCell
+    - GoogleToolboxForMac
+    - nanopb
+    - RAMPaperSwitch
+
+SPEC CHECKSUMS:
+  CircleMenu: 68e85ad9ea8e22aa5cb00b204abb176c5edec587
+  Firebase: d66f4f29c23f22d96808d9abc174d81d8eee968f
+  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
+  FirebaseCore: 42b3267233bd21a5abd54117ccc38ca3dd0f8e83
+  FirebaseInstanceID: f3f0657372592ecdfdfe2cac604a5a75758376a6
+  FoldingCell: 238c33ae8d9cd655090c9c4c5ff32596cfd18c6e
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  RAMPaperSwitch: ef08af0400a040c9850e09253280deb77510becb
+
+PODFILE CHECKSUM: 7dabdd4f942209a7c34ebbd049e4df846597c529
+
+COCOAPODS: 1.5.0
